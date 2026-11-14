@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "customer-churn-prediction"
+version = "0.1.0"
+authors = [{ name="Geno Joshua", email="133131809+GenoJ83@users.noreply.github.com" }]
+description = "Production Customer Churn ML System"
+readme = "README.md"
+requires-python = ">=3.9"
