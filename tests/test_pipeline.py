@@ -1,3 +1,5 @@
+import pytest
+pytest.importorskip("pandas")
 """Unit tests for dataset generator, preprocessor, and model."""
 import pytest
 from src.data.make_dataset import generate_churn_dataset
